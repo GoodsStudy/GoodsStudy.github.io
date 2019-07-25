@@ -1,2 +1,2 @@
 # GoodsStudy
-<a href="https://ioGoodsStudy/day06/html/超凡科技.html">超凡科技</a>
+<a href="day06/html/超凡科技.html">超凡科技</a>
