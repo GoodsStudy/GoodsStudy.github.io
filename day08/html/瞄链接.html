@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        .box {
+            width: 800px;
+            height: 600px;
+            border: 1px solid black;
+            margin: 100px auto;
+        }
+        
+        .box .left {
+            width: 100px;
+            height: 100%;
+            background: #ccc;
+            float: left;
+        }
+        
+        .box .right {
+            /* position: absolute; */
+            width: 700px;
+            height: 600px;
+            background: red;
+            float: left;
+            overflow: hidden;
+        }
+        
+        .right div {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="left">
+            <a href="#yijieduan1">一</a>
+            <a href="#yijieduan2">二</a>
+            <a href="#yijieduan3">三</a>
+        </div>
+        <div class="right">
+            <div id="yijieduan1">
+                <p>fhuiasgi1</p>
+                <p>fhuiasg1i</p>
+                <p>fhuiasgi1</p>
+
+            </div>
+            <div id="yijieduan2">
+                <p>fhuiasgi2</p>
+                <p>fhuiasgi2</p>
+                <p>fhuiasgi2</p>
+
+            </div>
+            <div id="yijieduan3">
+                <p>fhuiasgi3</p>
+                <p>fhuiasg3</p>
+                <p>fhuiasgi3</p>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
