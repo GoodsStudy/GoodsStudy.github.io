@@ -1,0 +1,95 @@
+.aa {
+    padding-left: 200px;
+}
+
+.box {
+    width: 245px;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+.box1 {
+    height: 58px;
+    background: url(../images/weixin.png) no-repeat, url(../images/bg.png);
+    overflow: hidden;
+}
+
+.box .box1 h2 {
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.box ul {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 62px;
+    margin-left: 50px;
+}
+
+.box li {
+    line-height: 18px;
+    list-style: none;
+    margin-top: 26px;
+}
+
+.box li a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.right {
+    width: 745px;
+    border: 1px solid red;
+}
+
+.right .centent {
+    width: 700px;
+    margin: auto;
+}
+
+.right .centent .header {
+    height: 180px;
+    background: #f3e1c9;
+    background-image: url(../images/header.png);
+    background-repeat: no-repeat;
+    background-position: 520px 60px;
+}
+
+.right .centent .header p {
+    line-height: 25px;
+    font-size: 16px;
+    width: 470px;
+    /* padding-left: 30px; */
+    padding: 30px;
+}
+
+.right .centent li {
+    border-bottom: 1px solid #aaa;
+    padding: 20px;
+    position: relative;
+}
+
+.right .centent h3 {
+    position: absolute;
+    top: 20px;
+    left: 190px;
+}
+
+.right .centent a {
+    color: black;
+    font-size: 16px;
+}
+
+.right .centent ul .p-1 {
+    position: absolute;
+    height: 475px;
+    left: 190px;
+    top: 55px;
+}
+
+.right .centent ul .p-1 a {
+    font-size: 14px;
+    color: #aaaaaa;
+}
