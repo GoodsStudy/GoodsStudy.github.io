@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        .p-1 {
+            width: 260px;
+            text-align: right;
+            font-size: 12px;
+            margin-left: 50px;
+        }
+        
+        input {
+            width: 120px;
+            height: 18px;
+        }
+        
+        .box {
+            width: 550px;
+            height: 700px;
+        }
+        
+        .box1 {
+            width: 450px;
+            height: 150px;
+        }
+        
+        .box2 {
+            width: 450px;
+            height: 400px;
+        }
+        
+        .submit {
+            width: 65px;
+            height: 20px;
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset class="box">
+        <form action="">
+            <p>已注册用户登录</p>
+            <fieldset class="box1">
+                <legend>用户登录</legend>
+                <p class="p-1">
+                    <label for="name">用户名:</label>
+                    <input type="text" id="name">
+                </p>
+                <p class="p-1">
+                    <label for="password">密码:</label>
+                    <input type="password" id="password">
+                </p>
+                <p class="p-1">
+                    <input style="width:13px;height:13px" type="checkbox">
+                    <apan>记住我</apan>
+                    <input class="submit" type="submit" value="登录">
+                </p>
+                <p>
+                    您忘记密码?
+                </p>
+            </fieldset>
+            <form action="">
+                <p>未注册创建账户</p>
+                <fieldset class="box2" action="">
+                    <legend>用户注册</legend>
+                    <p class="p-2" style="line-height: 12px">您的电子邮箱不会被公布出去，但是必须填写。在您注册之前请认证阅读服务条款</p>
+                    <p>
+                        <label for="name2">用户名</label>
+
+                        <input type="text" id="name2">*(最多30个字符)
+                    </p>
+                    <p>
+                        <label for="youxiang">电子邮箱</label>
+                        <input type="text">*
+                    </p>
+                    <p>
+                        <label for="password2">密码</label>
+                        <input type="password" id="password2">*(最多15个字符)
+                    </p>
+                    <p><label for="passeord3"></label>重复密码
+                        <input type="password" id="password3">*</p>
+                    <p>同意服务条款
+                        <input style="width: 13px;height:13px" type="checkbox">先看看条款？
+                    </p>
+                    <p>
+                        <input class="submit" type="submit" value="提交">
+                        <input class="submit" type="reset" value="重置">
+                    </p>
+                    <p>*在提交您的注册信息时，我们认为您已经同意了我们的服务条款。</p>
+                    <p>*这些条款可能在未经您同意的时候进行修稿。</p>
+            </form>
+            </fieldset>
+        </form>
+    </fieldset>
+</body>
+
+</html>

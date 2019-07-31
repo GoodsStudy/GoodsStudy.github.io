@@ -1,0 +1,19 @@
+table {
+    width: 600px;
+    height: 245px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table tr td {
+    border: 1px solid black;
+}
+
+.tr-1 {
+    background: #7e9de5;
+    text-align: left;
+}
+
+tr:nth-child(2n) {
+    background: pink;
+}
