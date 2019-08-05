@@ -12,4 +12,4 @@
 
 <a href="https://goodsstudy.github.io/day10/html/管理系统.html">管理系统</a>
 
-<a href="https://goodsstudy.github.io/第三周作业/html/开源博客.html">管理系统</a>
+<a href="https://goodsstudy.github.io/第三周作业/html/开源博客.html">开源博客</a>
