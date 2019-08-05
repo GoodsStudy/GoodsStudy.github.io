@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            display: flex;
+            justify-content: space-between;
+            align-content: flex-start;
+            flex-wrap: wrap;
+        }
+        
+        li {
+            width: 23%;
+            list-style: none;
+            height: 200px;
+            border: 1px solid red;
+            box-sizing: border-box;
+            margin-bottom: 5px;
+        }
+        
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        ul li:nth-child(2n+1) {
+            height: 220px !important;
+            align-self: center;
+        }
+        
+        ul li:nth-child(2n) {
+            height: 300px !important;
+            align-self: center;
+        }
+        /*         
+        ul li:nth-child(n+3) {
+            height: 220px !important;
+            align-self: center;
+            margin-top: 50px
+        }
+         */
+        
+        @media all and (min-width:0px) and (max-width:400px) {
+            li {
+                width: 98%;
+            }
+        }
+        
+        @media all and (min-width:401px) and (max-width:800px) {
+            li {
+                width: 45%;
+            }
+        }
+        
+        @media all and (min-width:801px) and (max-width:1200px) {
+            li {
+                width: 30%;
+            }
+        }
+        
+        @media all and (min-width:1200px) {
+            li {
+                width: 23%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="box">
+        <li><img src="../images/img/1.jpg" alt=""></li>
+        <li><img src="../images/img/2.jpg" alt=""></li>
+        <li><img src="../images/img/3.jpg" alt=""></li>
+        <li><img src="../images/img/4.jpg" alt=""></li>
+        <li><img src="../images/img/5.jpg" alt=""></li>
+        <li><img src="../images/img/6.jpg" alt=""></li>
+        <li><img src="../images/img/7.jpg" alt=""></li>
+        <li><img src="../images/img/8.jpg" alt=""></li>
+        <li><img src="../images/img/9.jpg" alt=""></li>
+        <li><img src="../images/img/10.jpg" alt=""></li>
+        <li><img src="../images/img/11.jpg" alt=""></li>
+        <li><img src="../images/img/12.jpg" alt=""></li>
+        <li><img src="../images/img/13.jpg" alt=""></li>
+        <li><img src="../images/img/14.jpg" alt=""></li>
+        <li><img src="../images/img/15.jpg" alt=""></li>
+        <li><img src="../images/img/16.jpg" alt=""></li>
+        <li><img src="../images/img/17.jpg" alt=""></li>
+        <li><img src="../images/img/18.jpg" alt=""></li>
+        <li><img src="../images/img/19.jpg" alt=""></li>
+        <li><img src="../images/img/20.jpg" alt=""></li>
+        <li><img src="../images/img/21.jpg" alt=""></li>
+        <li><img src="../images/img/22.jpg" alt=""></li>
+        <li><img src="../images/img/23.jpg" alt=""></li>
+        <li><img src="../images/img/24.jpg" alt=""></li>
+        <li><img src="../images/img/25.jpg" alt=""></li>
+        <li><img src="../images/img/26.jpg" alt=""></li>
+        <li><img src="../images/img/27.jpg" alt=""></li>
+        <li><img src="../images/img/28.jpg" alt=""></li>
+        <li><img src="../images/img/29.jpg" alt=""></li>
+        <li><img src="../images/img/30.jpg" alt=""></li>
+        <li><img src="../images/img/31.jpg" alt=""></li>
+        <li><img src="../images/img/32.jpg" alt=""></li>
+        <li><img src="../images/img/33.jpg" alt=""></li>
+        <li><img src="../images/img/34.jpg" alt=""></li>
+        <li><img src="../images/img/35.jpg" alt=""></li>
+        <li><img src="../images/img/36.jpg" alt=""></li>
+        <li><img src="../images/img/37.jpg" alt=""></li>
+        <li><img src="../images/img/38.jpg" alt=""></li>
+        <li><img src="../images/img/39.jpg" alt=""></li>
+        <li><img src="../images/img/40.jpg" alt=""></li>
+        <li><img src="../images/img/41.jpg" alt=""></li>
+        <li><img src="../images/img/42.jpg" alt=""></li>
+        <li><img src="../images/img/43.jpg" alt=""></li>
+        <li><img src="../images/img/44.jpg" alt=""></li>
+        <li><img src="../images/img/45.jpg" alt=""></li>
+        <li><img src="../images/img/46.jpg" alt=""></li>
+        <li><img src="../images/img/47.jpg" alt=""></li>
+        <li><img src="../images/img/48.jpg" alt=""></li>
+        <li><img src="../images/img/49.jpg" alt=""></li>
+        <li><img src="../images/img/50.jpg" alt=""></li>
+    </ul>
+</body>
+
+</html>

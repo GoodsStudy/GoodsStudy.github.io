@@ -1,0 +1,165 @@
+html,
+body {
+  height: 100%;
+}
+
+.red {
+  color: #f96268 !important;
+}
+
+.bc58 {
+  color: #29ab91 !important;
+}
+
+.yelow {
+  color: #ffb359 !important;
+}
+
+#zfb {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#zfb header {
+  height: 160px;
+  background: #3f454f;
+  display: flex;
+  flex-direction: column;
+}
+
+#zfb header .ul-1 {
+  display: flex;
+  flex: 1;
+}
+
+#zfb header .ul-1 li:nth-child(1) {
+  flex: 5;
+  padding-left: 5px;
+}
+
+#zfb header .ul-1 li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+#zfb header .ul-1 li i {
+  font-size: 20px;
+  color: #fff;
+}
+
+#zfb header .ul-1 li span {
+  font-size: 14px;
+  color: #fff;
+}
+
+#zfb header .ul-2 {
+  flex: 2;
+  display: flex;
+}
+
+#zfb header .ul-2 li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#zfb header .ul-2 li i {
+  font-size: 35px;
+  color: #fff;
+  line-height: 35px;
+}
+
+#zfb header .ul-2 li p img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+#zfb header .ul-2 li span {
+  font-size: 15px;
+  color: #fff;
+  line-height: 15px;
+  margin-top: 15px;
+}
+
+#zfb main {
+  flex: 1;
+  display: flex;
+}
+
+#zfb main ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2px;
+  justify-content: space-around;
+}
+
+#zfb main ul li {
+  border-bottom: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  width: 25%;
+  height: 20%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#zfb main ul li i {
+  font-size: 25px;
+  color: #2eb3e8;
+  line-height: 25px;
+}
+
+#zfb main ul li p {
+  font-size: 13px;
+  line-height: 13px;
+  margin-top: 13px;
+}
+
+#zfb main ul li:nth-child(4n) {
+  border-right: none;
+}
+
+#zfb main ul li:nth-child(-n+4) {
+  border-top: 1px solid #e6e6e6;
+}
+
+#zfb main ul li:hover {
+  background: #ccc;
+}
+
+#zfb footer {
+  height: 50px;
+  background: #fff;
+}
+
+#zfb footer ul {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#zfb footer ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+#zfb footer ul li i {
+  font-size: 23px;
+  color: #00aaee;
+}
+
+#zfb footer ul li span {
+  font-size: 10px;
+  color: #00aaee;
+}
