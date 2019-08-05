@@ -1,0 +1,504 @@
+html,
+body {
+  height: 100%;
+  background: #f4f4f4;
+}
+
+#allpypa {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#allpypa header {
+  height: 44px;
+  background: #fff;
+}
+
+#allpypa header ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+#allpypa header ul li {
+  flex: 1;
+  font-size: 13px;
+  line-height: 44px;
+  text-align: center;
+}
+
+#allpypa header ul li:nth-child(1) {
+  background: url(../images/images/ld.png) no-repeat;
+  background-size: 16px 16px;
+  background-position: center center;
+}
+
+#allpypa header ul li:nth-child(2) {
+  flex: 6;
+  background: url(../images/images/logo.png) no-repeat;
+  background-position: center center;
+  background-size: 81px 14px;
+}
+
+#allpypa main {
+  flex: 1;
+  overflow: auto;
+}
+
+#allpypa main .benner {
+  background: #fff;
+  height: 210px;
+  overflow: auto;
+}
+
+#allpypa main .benner ul {
+  height: 100%;
+  display: flex;
+}
+
+#allpypa main .benner ul .list-1 {
+  width: 100%;
+  background: url(../images/images/banner.jpg) no-repeat;
+  background-size: 100% 210px;
+  flex-shrink: 0;
+}
+
+#allpypa main .benner ul .list-2 {
+  width: 100%;
+  background: url(../images/images/banner1.jpg) no-repeat;
+  background-size: 100% 210px;
+  flex-shrink: 0;
+}
+
+#allpypa main .nav {
+  background: #fff;
+  height: 75px;
+}
+
+#allpypa main .nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#allpypa main .nav ul li {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#allpypa main .nav ul li p {
+  width: 40px;
+  height: 40px;
+  background: url(../images/images/icon1.png) no-repeat;
+  background-size: 40px 40px;
+  background-position: center center;
+}
+
+#allpypa main .nav ul li .p-6 {
+  background: url(../images/images/icon2.png) no-repeat;
+  background-size: 40px 40px;
+}
+
+#allpypa main .nav ul li .p-7 {
+  background: url(../images/images/icon3.png) no-repeat;
+  background-size: 40px 40px;
+}
+
+#allpypa main .nav ul li .p-8 {
+  background: url(../images/images/icon4.png) no-repeat;
+  background-size: 40px 40px;
+}
+
+#allpypa main .nav ul li span a {
+  font-size: 8px;
+  color: #292929;
+}
+
+#allpypa main .tletie {
+  background: #fff;
+  height: 65px;
+  margin-top: 10px;
+  background: url(../images/images/bg.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .tletie ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#allpypa main .tletie ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 160px;
+  height: 20%;
+}
+
+#allpypa main .tletie ul li p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  line-height: 9px;
+  padding: 2px;
+  border: 1px solid #cabea4;
+  box-sizing: border-box;
+}
+
+#allpypa main .tletie ul li span {
+  font-size: 10px;
+  margin-left: 9px;
+}
+
+#allpypa main .tletie ul li span a {
+  font-size: 9px;
+  color: black;
+}
+
+#allpypa main .benner2 {
+  background: #fff;
+  height: 220px;
+  margin-top: 10px;
+  background: url(../images/images/list1.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .doogs {
+  background: #fff;
+  height: 155px;
+  display: flex;
+  flex-direction: row;
+}
+
+#allpypa main .doogs .ul-4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+#allpypa main .doogs .ul-4 li {
+  width: 35%;
+  height: 80%;
+  flex-shrink: 0;
+}
+
+#allpypa main .doogs .ul-4 li .p-10 {
+  width: 100%;
+  height: 75px;
+  background: url(../images/images/list1-1.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .doogs .ul-4 li .p-12 {
+  width: 100%;
+  height: 75px;
+  background: url(../images/images/list1-2.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .doogs .ul-4 li .p-13 {
+  width: 100%;
+  height: 75px;
+  background: url(../images/images/list1-3.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .doogs .ul-4 li .p-14 {
+  width: 100%;
+  height: 75px;
+  background: url(../images/images/list1-4.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .doogs .ul-4 li .p-15 {
+  width: 100%;
+  height: 75px;
+  background: url(../images/images/list1-5.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .doogs .ul-4 li .p-16 {
+  width: 100%;
+  height: 75px;
+  background: url(../images/images/list1-6.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .doogs .ul-4 li .p-11 {
+  width: 70px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  font-size: 7px;
+}
+
+#allpypa main .doogs .ul-4 li .p-11 i {
+  text-align: center;
+  line-height: 10px;
+  margin-bottom: 5px;
+}
+
+#allpypa main .benner3 {
+  background: #fff;
+  height: 220px;
+  background: url(../images/images/list2.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .doogs2 {
+  background: #fff;
+  height: 155px;
+  display: flex;
+  flex-direction: row;
+}
+
+#allpypa main .doogs2 .ul-4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+#allpypa main .doogs2 .ul-4 li {
+  width: 35%;
+  height: 80%;
+  flex-shrink: 0;
+}
+
+#allpypa main .doogs2 .ul-4 li .p-10 {
+  width: 100%;
+  height: 75px;
+  background: url(../images/images/list2-1.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .doogs2 .ul-4 li .p-12 {
+  width: 100%;
+  height: 75px;
+  background: url(../images/images/list2-2.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .doogs2 .ul-4 li .p-13 {
+  width: 100%;
+  height: 75px;
+  background: url(../images/images/list2-3.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .doogs2 .ul-4 li .p-14 {
+  width: 100%;
+  height: 75px;
+  background: url(../images/images/list2-4.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .doogs2 .ul-4 li .p-11 {
+  width: 70px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  font-size: 7px;
+}
+
+#allpypa main .doogs2 .ul-4 li .p-11 i {
+  text-align: center;
+  line-height: 10px;
+  margin-bottom: 5px;
+}
+
+#allpypa main .benner4 {
+  background: #fff;
+  height: 220px;
+  background: url(../images/images/banner.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .qqbm .top {
+  background: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#allpypa main .qqbm .top h2 {
+  padding-top: 20px;
+  font-size: 13px;
+}
+
+#allpypa main .qqbm .top p {
+  font-size: 7px;
+  padding-bottom: 29px;
+}
+
+#allpypa main .qqbm .bottom ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#allpypa main .qqbm .bottom ul li {
+  margin-bottom: 10px;
+  background: #fff;
+  width: 45%;
+  height: 222px;
+  display: flex;
+  flex-direction: column;
+}
+
+#allpypa main .qqbm .bottom ul li .p-20 {
+  flex: 5;
+  background: url(../images/images/img1.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .qqbm .bottom ul li .p-23 {
+  flex: 5;
+  background: url(../images/images/img2.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .qqbm .bottom ul li .p-24 {
+  flex: 5;
+  background: url(../images/images/img3.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .qqbm .bottom ul li .p-25 {
+  flex: 5;
+  background: url(../images/images/img4.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .qqbm .bottom ul li .p-26 {
+  flex: 5;
+  background: url(../images/images/img5.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .qqbm .bottom ul li .p-27 {
+  flex: 5;
+  background: url(../images/images/img6.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+#allpypa main .qqbm .bottom ul li .p-21 {
+  display: flex;
+  justify-content: center;
+  flex: 2;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  text-align: center;
+  line-height: 18px;
+}
+
+#allpypa main .qqbm .bottom ul li .p-21 a {
+  font-size: 8px;
+  color: black;
+}
+
+#allpypa main .qqbm .bottom ul li .p-22 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  padding-left: 18px;
+}
+
+#allpypa main .qqbm .bottom ul li .p-22 i {
+  font-size: 9px;
+  color: red;
+}
+
+#allpypa main .qqbm .bottom ul li .p-22 i:nth-child(2) {
+  font-size: 10px;
+  color: #b9b9b9;
+  margin-right: 18px;
+}
+
+#allpypa footer {
+  background: #fff;
+  height: 65px;
+}
+
+#allpypa footer ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#allpypa footer ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 10px;
+  width: 20%;
+}
+
+#allpypa footer ul li p {
+  width: 24px;
+  height: 24px;
+  background: url(../images/images/tab1-2.png) no-repeat;
+  background-size: 24px 24px;
+  background-position: center center;
+}
+
+#allpypa footer ul li .p-2 {
+  background: url(../images/images/tab2.png) no-repeat;
+  background-size: 24px 24px;
+  background-position: center center;
+}
+
+#allpypa footer ul li .p-3 {
+  background: url(../images/images/tab3.png) no-repeat;
+  background-size: 24px 24px;
+  background-position: center center;
+}
+
+#allpypa footer ul li .p-4 {
+  background: url(../images/images/tab4.png) no-repeat;
+  background-size: 24px 24px;
+  background-position: center center;
+}
+
+#allpypa footer ul li span {
+  font-size: 12px;
+}
